@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Rede.Xamarin.SDK</AssemblyName>
+    <RootNamespace>Rede.Xamarin.SDK</RootNamespace>
+    <AssemblyVersion>2020.52.8.2002</AssemblyVersion>
+    <FileVersion>2020.52.8.2002</FileVersion>
+    <Copyright></Copyright>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Code</Authors>
+    <Company>Code Informática</Company>
+    <Description>Pacote para integração com a plataforma de pagamentos Rede (uma empresa Itaú) e Xamarin</Description>
+    <PackageProjectUrl>https://codeinformatica.com.br/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HudsonRomeu/Rede.Xamarin.SDK</RepositoryUrl>
+    <Version>2020.52.8.2002</Version>
+    <PackageIcon>620x620_brand_ifttt.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>Rede, API, SDK, REST</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\svn\Code Informatica\code-workspace\identidade_visual\code\output\png\620x620_brand_ifttt.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
