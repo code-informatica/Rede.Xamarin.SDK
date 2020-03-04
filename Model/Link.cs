@@ -1,24 +1,9 @@
-﻿
-namespace Rede.Acquiring.SDK.Rest.Model
+namespace Rede.Xamarin.SDK.Model
 {
-    /// <summary>
-    /// Link class.
-    /// </summary>
     public class Link
     {
-        /// <summary>
-        /// Method property.
-        /// </summary>
-        public string Method { get; set; }
-
-        /// <summary>
-        /// Rel property.
-        /// </summary>
-        public string Rel { get; set; }
-
-        /// <summary>
-        /// Href property.
-        /// </summary>
-        public string Href { get; set; }
+        public string method { get; set; }
+        public string rel { get; set; }
+        public string href { get; set; }
     }
 }

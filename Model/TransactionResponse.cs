@@ -1,65 +1,53 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 
-namespace Rede.Acquiring.SDK.Rest.Model
+namespace Rede.Xamarin.SDK.Model
 {
-    /// <summary>
-    /// TransactionResponse class.
-    /// </summary>
-    public class TransactionResponse : ResponseBase
+    public class TransactionResponse
     {
-        /// <summary>
-        /// Reference property.
-        /// </summary>
-        public string Reference { get; set; }
+        public int amount { get; set; }
+        public Antifraud antifraud { get; set; }
+        public bool antifraudRequired { get; set; }
 
-        /// <summary>
-        /// Tid property.
-        /// </summary>
-        public string Tid { get; set; }
+        public string authorizationCode { get; set; }
+        public string cancelId { get; set; }
 
-        /// <summary>
-        /// Nsu property.
-        /// </summary>
-        public string Nsu { get; set; }
-        
-        /// <summary>
-        /// AuthorizationCode property.
-        /// </summary>
-        public string AuthorizationCode { get; set; }
-        
-        /// <summary>
-        /// DateTime property.
-        /// </summary>
-        public string DateTime { get; set; }
 
-        /// <summary>
-        /// Amount property.
-        /// </summary>
-        public int? Amount { get; set; }
+        public string cardBin { get; set; }
+        public string cardHolderName { get; set; }
+        public string cardNumber { get; set; }
+        public Cart cart { get; set; }
+        public string dateTime { get; set; }
+        public int distributorAffiliation { get; set; }
+        public string expirationMonth { get; set; }
+        public string expirationYear { get; set; }
+        public Iata iata { get; set; }
+        public int installments { get; set; }
+        public string kind { get; set; }
+        public string last4 { get; set; }
+        public string nsu { get; set; }
+        public string origin { get; set; }
+        public string reference { get; set; }
+        public string refundDateTime { get; set; }
+        public string refundId { get; set; }
+        public List<Refund> refunds { get; set; }
 
-        /// <summary>
-        /// Installments property.
-        /// </summary>
-        public int? Installments { get; set; }
 
-        /// <summary>
-        /// CardBin property.
-        /// </summary>
-        public string CardBin { get; set; }
+        public string securityCode { get; set; }
+        public string softDescriptor { get; set; }
+        public string storageCard { get; set; }
 
-        /// <summary>
-        /// Last4 property.
-        /// </summary>
-        public string Last4 { get; set; }
 
-        /// <summary>
-        /// ThreeDSecure property.
-        /// </summary>
-        public ThreeDSecureResponse ThreeDSecure { get; set; }
+        public bool subscription { get; set; }
+        public ThreeDSecure threeDSecure { get; set; }
 
-        // <summary>
-        /// Links property.
-        /// </summary>
-        public List<Link> Links { get; set; }
+        public List<Url> urls { get; set; }
+
+        public List<Link> links { get; set; }
+        public Capture capture { get; set; }
+        public Authorization authorization { get; set; }
+        public string requestDateTime { get; set; }
+        public string tid { get; set; }
+        public string returnCode { get; set; }
+        public string returnMessage { get; set; }
     }
 }
