@@ -1,3 +1,5 @@
+using Rede.Xamarin.SDK.Model;
+
 namespace Rede.Xamarin.SDK.Service
 {
     internal class CancelTransactionService : AbstractTransactionService

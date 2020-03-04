@@ -1,3 +1,4 @@
+using Rede.Xamarin.SDK.Model;
 using RestSharp;
 
 namespace Rede.Xamarin.SDK.Service

@@ -1,15 +1,15 @@
-using eRede.Service;
+using Rede.Xamarin.SDK.Service;
 
 namespace Rede.Xamarin.SDK.Model
 {
-    public class eRede
+    public class RedeApi
     {
         public const string VERSION = "1.0.0";
         public const string UserAgent = "eRede/" + VERSION + "(SDK; C#)";
 
         private readonly Store store;
 
-        public eRede(Store store)
+        public RedeApi(Store store)
         {
             this.store = store;
         }

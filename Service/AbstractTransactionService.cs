@@ -37,7 +37,7 @@ namespace Rede.Xamarin.SDK.Service
         {
             var client = new RestClient(getUri())
             {
-                UserAgent = eRede.UserAgent,
+                UserAgent = RedeApi.UserAgent,
                 Authenticator = new HttpBasicAuthenticator(store.filliation, store.token)
             };
 

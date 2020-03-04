@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Rede.Xamarin.SDK</AssemblyName>
     <RootNamespace>Rede.Xamarin.SDK</RootNamespace>
-    <AssemblyVersion>2020.64.12.2003</AssemblyVersion>
-    <FileVersion>2020.64.12.2003</FileVersion>
+    <AssemblyVersion>2020.64.14.2003</AssemblyVersion>
+    <FileVersion>2020.64.14.2003</FileVersion>
     <Copyright></Copyright>
     <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
